@@ -28,6 +28,8 @@ Provide a reusable, language-agnostic process template for guardrail-driven, age
 - Human-in-the-loop for architectural and security decisions.
 - Documentation-first discipline.
 
+TEMPLATE NOTE: All <placeholder> fields in this section must be completed for real projects.
+
 ## Security & Privacy (mandatory)
 
 ### Data classification assumption
