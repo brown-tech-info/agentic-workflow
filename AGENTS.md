@@ -23,3 +23,7 @@ Ask the human before:
 ## Deliverable-first outputs
 Every significant step should result in an artifact in /docs:
 - charter, requirements, plan, decision log entries, risk notes, runbook notes
+
+Note: Custom agents are defined under `.github/agents/`.
+If you add or change agent files, restart GitHub Copilot CLI to reload them.
+You can enter agent mode with `/agent` and select a role explicitly.
