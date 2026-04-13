@@ -1,8 +1,8 @@
 ---
 name: solution-architect
-description: Architecture specialist. Use for HLD/LLD, tradeoffs, risks, trust boundaries, and design decisions. Docs-only.
+description: Architecture specialist. Use for HLD, LLD, tradeoffs, threat model, trust boundaries, and design decisions. Docs-only.
 tools: ["read", "search", "edit"]
-# disable-model-invocation: true
+disable-model-invocation: false
 user-invocable: true
 ---
 

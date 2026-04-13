@@ -1,8 +1,8 @@
 ---
 name: release-manager
-description: Release/PR hygiene specialist. Use for PR descriptions, changelog entries, release notes, and checklists. Docs-only.
+description: Release/PR hygiene specialist. Use for PR description, release notes, changelog entries, and checklists. Docs-only.
 tools: ["read", "search", "edit"]
-# disable-model-invocation: true
+disable-model-invocation: false
 user-invocable: true
 ---
 

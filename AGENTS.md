@@ -63,15 +63,15 @@ Use **`developer`** **only** when:
 
 This repo supports **both manual and automatic agent selection**:
 
-- **Auto‑invocable agents**  
-  Copilot CLI may choose these agents automatically and run them as **sub‑agents** with scoped permissions.
+- **Manual selection is deterministic.**  
+  Use `/agent` or `@agent-name` to invoke a specific agent. This always works and overrides auto‑routing.
 
-- **Manual‑only agents**  
-  Some agents are intentionally not auto‑invoked to avoid unintended execution or governance overhead.
+- **Auto‑routing is heuristic.**  
+  When `disable-model-invocation` is `false` in an agent's frontmatter, Copilot CLI *may* choose that agent as a sub‑agent when it determines a good fit. This is not guaranteed—it depends on Copilot's assessment of the task.
 
-You always retain control:
-- You can explicitly select an agent via `/agent` or `@agent-name`
-- Manual selection always overrides auto‑routing
+- **Manual‑only agents** (`orchestrator`, `developer`) have `disable-model-invocation: true` and are never auto‑selected. They require explicit invocation because phase gating and implementation need human intent.
+
+- **Restart required.** After changing files under `.github/agents/`, restart GitHub Copilot CLI to reload agent definitions.
 
 ---
 

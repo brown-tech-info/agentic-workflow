@@ -2,7 +2,7 @@
 name: docs-editor
 description: Documentation specialist. Use for README, runbook, security docs, clarity, structure, and public polish. Docs-only.
 tools: ["read", "search", "edit"]
-# disable-model-invocation: true
+disable-model-invocation: false
 user-invocable: true
 ---
 

@@ -1,8 +1,8 @@
 ---
 name: test-engineer
-description: Verification specialist. Use for tests, validation steps, acceptance criteria coverage, and runbook verification. Limited scope.
+description: Verification specialist. Use for tests, validation, verification steps, acceptance criteria coverage, and runbook verification. Limited scope.
 tools: ["read", "search", "edit"]
-# disable-model-invocation: true
+disable-model-invocation: false
 user-invocable: true
 ---
 

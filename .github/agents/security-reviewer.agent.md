@@ -1,8 +1,8 @@
 ---
 name: security-reviewer
-description: Read-only security reviewer. Use for security review/audit, secrets check, PII/PHI concerns, threat modeling, risky changes. No edits.
+description: Read-only security reviewer. Use for security review, audit, secrets check, PII/PHI concerns, threat modeling, risky changes. No edits.
 tools: ["read", "search"]
-# disable-model-invocation: true
+disable-model-invocation: false
 user-invocable: true
 ---
 
