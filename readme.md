@@ -16,7 +16,8 @@ It provides a consistent **operating model, documentation flow, security guardra
   - decision logging
   - security & privacy hard stops
 - A standard set of artifacts under `/docs` that preserve context across sessions
-- A curated set of **specialized Copilot agents** (planner, architect, developer, security reviewer, etc.)
+- A curated set of **specialized Copilot agents** (planner, architect, developer, security reviewer, etc.)  
+  Some agents are auto-invocable as subagents; others require manual selection. See [`docs/06-agents.md`](docs/06-agents.md) for details.
 
 ---
 
